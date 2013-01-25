@@ -6,3 +6,11 @@ C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\
 C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\bin\x86\Debug\FredLib.pdb
 C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\obj\x86\Debug\GameJam2013.exe
 C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\obj\x86\Debug\GameJam2013.pdb
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\bin\x86\Debug\Content\AttackSheet.xnb
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\bin\x86\Debug\Content\Background.xnb
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\bin\x86\Debug\Content\HeartSheet.xnb
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\bin\x86\Debug\Content\PlayerSheet.xnb
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\bin\x86\Debug\Content\RockWallSheet.xnb
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\bin\x86\Debug\Content\Strip.xnb
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\bin\x86\Debug\Content\WallSheet.xnb
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\GameJam2013\bin\x86\Debug\Content\tempFont.xnb

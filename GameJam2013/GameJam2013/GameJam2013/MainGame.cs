@@ -34,6 +34,7 @@ namespace GameJam2013
         Texture2D strip;
 
         CollideableManager cols;
+        Input input;
 
         public static float fps = 0;
         int frames = 0;
@@ -51,6 +52,8 @@ namespace GameJam2013
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            cols = new CollideableManager();
+            input = new Input();
         }
 
 
@@ -60,9 +63,10 @@ namespace GameJam2013
         /// related content.  Calling base.Initialize will enumerate through any components
         /// and initialize them as well.
         /// </summary>
-        public void Initialize()
+        protected override void Initialize()
         {
-            Map.SetTileMapper();
+            base.Initialize();
+            
         }
 
         SpriteFont font;
@@ -70,16 +74,18 @@ namespace GameJam2013
         /// LoadContent will be called once per game and is the place to load
         /// all of your content.
         /// </summary>
-        public void LoadContent()
+        protected override void LoadContent()
         {
-            font = game.Content.Load<SpriteFont>("tempFont");
-            Texture2D dude = game.Content.Load<Texture2D>("PlayerSheet");
-            Texture2D wall = game.Content.Load<Texture2D>("WallSheet");
-            Texture2D rockWall = game.Content.Load<Texture2D>("RockWallSheet");
-            Player.attackImage = game.Content.Load<Texture2D>("AttackSheet");
-            heart = game.Content.Load<Texture2D>("HeartSheet");
-            bGround = game.Content.Load<Texture2D>("Background");
-            strip = game.Content.Load<Texture2D>("Strip");
+            Map.SetTileMapper();
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+            font = Content.Load<SpriteFont>("tempFont");
+            Texture2D dude = Content.Load<Texture2D>("PlayerSheet");
+            Texture2D wall = Content.Load<Texture2D>("WallSheet");
+            Texture2D rockWall = Content.Load<Texture2D>("RockWallSheet");
+            Player.attackImage = Content.Load<Texture2D>("AttackSheet");
+            heart = Content.Load<Texture2D>("HeartSheet");
+            bGround = Content.Load<Texture2D>("Background");
+            strip = Content.Load<Texture2D>("Strip");
 
             string[] data = 
             {
@@ -140,21 +146,14 @@ namespace GameJam2013
         }
 
         /// <summary>
-        /// UnloadContent will be called once per game and is the place to unload
-        /// all content.
-        /// </summary>
-        public void UnloadContent()
-        {
-            // TODO: Unload any non ContentManager content here
-        }
-
-        /// <summary>
         /// Allows the game to run logic such as updating the world,
         /// checking for collisions, gathering input, and playing audio.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
-        public void Update(GameTime gameTime)
+        protected override void Update(GameTime gameTime)
         {
+            input.Update();
+            HandleInput(input);
             elapsedTime += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             if (elapsedTime >= 1)
@@ -183,14 +182,17 @@ namespace GameJam2013
         public void HandleInput(Input input)
         {
             cols.HandleInput(input);
-
+            if (input.GetKeyState(Keys.Escape) == InputState.Pressed)
+            {
+                Exit();
+            }
         }
 
         /// <summary>
         /// This is called when the game should draw itself.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
-        public void Draw(GameTime gameTime)
+        protected override void  Draw(GameTime gameTime)
         {
             //fps = (float)(1 / gameTime.ElapsedGameTime.TotalSeconds);
             frames++;
