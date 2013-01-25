@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using DigestionDuel.Utilities;
+using FredLib.Graphics;
 
-namespace DigestionDuel.Objects
+namespace GameJam2013.Objects
 {
     class Attack : Collideable
     {

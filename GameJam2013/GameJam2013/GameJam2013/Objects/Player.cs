@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
-using DigestionDuel.Utilities;
 using Microsoft.Xna.Framework.Input;
+using FredLib.Graphics;
+using FredLib.Input;
 
-namespace DigestionDuel.Objects
+namespace GameJam2013.Objects
 {
     class Player : Collideable
     {

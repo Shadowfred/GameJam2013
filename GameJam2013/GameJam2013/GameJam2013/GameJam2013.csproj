@@ -89,6 +89,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FredLib\FredLib\FredLib.csproj">
+      <Project>{DF2A7636-693F-46BA-A223-7B047634DA65}</Project>
+      <Name>FredLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GameJam2013Content\GameJam2013Content.contentproj">
       <Name>GameJam2013Content</Name>
       <XnaReferenceType>Content</XnaReferenceType>

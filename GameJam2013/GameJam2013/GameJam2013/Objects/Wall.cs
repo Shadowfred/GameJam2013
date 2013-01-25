@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
-using DigestionDuel.Utilities;
+using FredLib.Graphics;
 
-namespace DigestionDuel.Objects
+namespace GameJam2013.Objects
 {
     class Wall : Collideable
     {

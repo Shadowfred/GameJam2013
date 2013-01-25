@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
-namespace DigestionDuel.Objects
+namespace GameJam2013.Objects
 {
     class Map
     {

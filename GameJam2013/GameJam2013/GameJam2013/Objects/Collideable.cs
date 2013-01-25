@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using DigestionDuel.Utilities;
 using Microsoft.Xna.Framework.Graphics;
+using FredLib.Input;
 
-namespace DigestionDuel.Objects
+namespace GameJam2013.Objects
 {
     class Collideable
     {

@@ -4,3 +4,9 @@ C:\Users\'jjjj\Desktop\GameDev\FredLib\FredLib\obj\x86\Debug\ResolveAssemblyRefe
 C:\Users\'jjjj\Desktop\GameDev\FredLib\FredLib\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\'jjjj\Desktop\GameDev\FredLib\FredLib\obj\x86\Debug\FredLib.dll
 C:\Users\'jjjj\Desktop\GameDev\FredLib\FredLib\obj\x86\Debug\FredLib.pdb
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\FredLib\FredLib\bin\x86\Debug\FredLib.dll
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\FredLib\FredLib\bin\x86\Debug\FredLib.pdb
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\FredLib\FredLib\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\FredLib\FredLib\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\FredLib\FredLib\obj\x86\Debug\FredLib.dll
+C:\Users\'jjjj\Documents\GitHub\GameJam2013\GameJam2013\GameJam2013\FredLib\FredLib\obj\x86\Debug\FredLib.pdb
