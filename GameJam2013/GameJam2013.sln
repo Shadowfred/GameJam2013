@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameJam2013Content", "GameJ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredLib", "GameJam2013\FredLib\FredLib\FredLib.csproj", "{DF2A7636-693F-46BA-A223-7B047634DA65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParticleSettings (Windows)", "..\..\..\..\Desktop\CSCI356\Examples\LectureExamples\Particles2DPipeline_4_0\ParticleSettings\ParticleSettings (Windows).csproj", "{F32F90F2-3829-4E99-9884-FC5CC26D1412}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParticleSettings (Windows)", "ParticleSettings\ParticleSettings (Windows).csproj", "{F32F90F2-3829-4E99-9884-FC5CC26D1412}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

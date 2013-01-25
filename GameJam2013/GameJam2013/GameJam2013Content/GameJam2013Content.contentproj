@@ -74,12 +74,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\Desktop\CSCI356\Examples\LectureExamples\Particles2DPipeline_4_0\ParticleSettings\ParticleSettings %28Windows%29.csproj">
-      <Project>{F32F90F2-3829-4E99-9884-FC5CC26D1412}</Project>
-      <Name>ParticleSettings %28Windows%29</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="BlockParticle.png">
       <Name>BlockParticle</Name>
       <Importer>TextureImporter</Importer>
@@ -90,6 +84,12 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ParticleSettings\ParticleSettings %28Windows%29.csproj">
+      <Project>{F32F90F2-3829-4E99-9884-FC5CC26D1412}</Project>
+      <Name>ParticleSettings %28Windows%29</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 

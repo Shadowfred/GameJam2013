@@ -94,7 +94,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\Desktop\CSCI356\Examples\LectureExamples\Particles2DPipeline_4_0\ParticleSettings\ParticleSettings %28Windows%29.csproj">
+    <ProjectReference Include="..\..\ParticleSettings\ParticleSettings %28Windows%29.csproj">
       <Project>{F32F90F2-3829-4E99-9884-FC5CC26D1412}</Project>
       <Name>ParticleSettings %28Windows%29</Name>
     </ProjectReference>
