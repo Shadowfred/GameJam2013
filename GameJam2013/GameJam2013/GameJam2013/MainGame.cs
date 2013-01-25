@@ -140,6 +140,8 @@ namespace GameJam2013
             cols.Add(player1, true);
             cols.Add(player2, true);
 
+            cols.Add(new MovingPlatform(wall, new Vector2(32 * 10, 32 * 12), 5 * 32, 32), true);
+
             //cols.Add(new Player(dude, new Vector2(50, 200), 32, 32), true);
             //cols.Add(new Wall(wall, new Vector2(50, 250), 32, 32), false);
             //cols.Add(new RockWall(rockWall, new Vector2(70, 228), 32, 32), false);
