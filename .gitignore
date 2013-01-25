@@ -10,6 +10,8 @@
 # Visual Studio Files #
 #######################
 *.suo
+*.cache
+*.user
 
 # Packages #
 ############
